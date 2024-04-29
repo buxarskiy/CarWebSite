@@ -7,13 +7,14 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import uz.pdp.car_aplication.entity.User;
-import uz.pdp.car_aplication.entity.enums.RoleName;
-import uz.pdp.car_aplication.repo.UserRepo;
+import uz.pdp.carwebsite.entity.User;
+import uz.pdp.carwebsite.entity.enums.RoleName;
+import uz.pdp.carwebsite.repo.UserRepo;
 
 import java.io.IOException;
 
-import static uz.pdp.car_aplication.config.DBConfig.entityManagerFactory;
+import static uz.pdp.carwebsite.config.DBConfig.entityManagerFactory;
+
 
 @WebServlet(name = "auth", value = "/auth/login")
 public class AuthServlet extends HttpServlet {

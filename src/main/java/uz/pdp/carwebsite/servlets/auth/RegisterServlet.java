@@ -6,12 +6,13 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import uz.pdp.car_aplication.entity.User;
-import uz.pdp.car_aplication.repo.RoleRepo;
+import uz.pdp.carwebsite.entity.User;
+import uz.pdp.carwebsite.repo.RoleRepo;
 
 import java.io.IOException;
 
-import static uz.pdp.car_aplication.config.DBConfig.entityManagerFactory;
+import static uz.pdp.carwebsite.config.DBConfig.entityManagerFactory;
+
 
 @WebServlet(name = "register", value = "/register")
 public class RegisterServlet extends HttpServlet {
