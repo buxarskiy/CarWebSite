@@ -25,7 +25,7 @@ public class DataLoader implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         entityManagerFactory = Persistence.createEntityManagerFactory("CarWebSite");
         entityManager = entityManagerFactory.createEntityManager();
-        initData();
+//        initData();
         ServletContextListener.super.contextInitialized(sce);
     }
 

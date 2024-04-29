@@ -1,13 +1,7 @@
 <%@ page import="jakarta.persistence.EntityManager" %>
 <%@ page import="java.util.List" %>
 <%@ page import="static uz.pdp.carwebsite.config.DBConfig.entityManagerFactory" %>
-<%@ page import="uz.pdp.carwebsite.entity.Company" %><%--
-  Created by IntelliJ IDEA.
-  User: user
-  Date: 4/17/2024
-  Time: 5:06 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="uz.pdp.carwebsite.entity.Company" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

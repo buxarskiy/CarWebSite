@@ -10,7 +10,7 @@
                 <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/car_web_site"/>
                 <property name="jakarta.persistence.jdbc.user" value="postgres"/>
                 <property name="jakarta.persistence.jdbc.password" value="joxa77"/>
-                <property name="hibernate.hbm2ddl.auto" value="create"/>
+                <property name="hibernate.hbm2ddl.auto" value="update"/>
                 <property name="hibernate.show_sql" value="true"/>
                 <property name="hibernate.format_sql" value="true"/>
             </properties>
